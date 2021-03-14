@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-13T20:16:17Z" name="com.ht.testcases.LoginTest" finished-at="2021-03-13T20:16:29Z" duration-ms="11799">
+    <groups>
+    </groups>
+    <test started-at="2021-03-13T20:16:17Z" name="Command line test" finished-at="2021-03-13T20:16:29Z" duration-ms="11799">
+      <class name="com.ht.testcases.LoginTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.ht.testcases.LoginTest@34cd072c]" started-at="2021-03-13T20:16:16Z" name="setupSuite" finished-at="2021-03-13T20:16:17Z" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ht.testcases.LoginTest@34cd072c]" started-at="2021-03-13T20:16:17Z" name="setUp" finished-at="2021-03-13T20:16:25Z" duration-ms="7620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginApp()[pri:0, instance:com.ht.testcases.LoginTest@34cd072c]" started-at="2021-03-13T20:16:25Z" name="loginApp" finished-at="2021-03-13T20:16:28Z" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="tesrDownMethod(org.testng.ITestResult)[pri:0, instance:com.ht.testcases.LoginTest@34cd072c]" started-at="2021-03-13T20:16:28Z" name="tesrDownMethod" finished-at="2021-03-13T20:16:29Z" duration-ms="1327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTest.loginApp()[pri:0, instance:com.ht.testcases.LoginTest@34cd072c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ht.testcases.LoginTest@34cd072c]" started-at="2021-03-13T20:16:29Z" name="tearDown" finished-at="2021-03-13T20:16:29Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ht.testcases.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.ht.testcases.LoginTest -->
+</testng-results>
